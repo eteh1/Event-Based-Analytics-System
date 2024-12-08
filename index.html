@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Event-Based Analytics System</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Event-Based Analytics System</h1>
+  </header>
+
+  <main>
+    <section id="interaction-area">
+      <h2>Interaction Area</h2>
+      <button id="click-button">Click Me!</button>
+      <div id="hover-box">Hover over me!</div>
+      <form id="sample-form">
+        <input type="text" placeholder="Type something" id="text-input" />
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+
+    <section id="analytics-dashboard">
+      <h2>Analytics Dashboard</h2>
+      <div id="event-counts">
+        <p>Clicks: <span id="click-count">0</span></p>
+        <p>Hovers: <span id="hover-count">0</span></p>
+        <p>Form Submissions: <span id="form-count">0</span></p>
+        <p>Keypresses: <span id="keypress-count">0</span></p>
+      </div>
+      <canvas id="chart" width="400" height="200"></canvas>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Event-Based Analytics System</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

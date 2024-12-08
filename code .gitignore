@@ -1,0 +1,24 @@
+# Ignore compiled files
+bin/
+obj/
+
+# Ignore user-specific files
+*.user
+*.suo
+*.userprefs
+
+# Ignore temporary files
+*.tmp
+*.log
+
+# Ignore API keys or sensitive information
+*.config
+apikey.txt
+
+# Ignore NuGet packages
+packages/
+
+# Ignore other environment or IDE files
+.vscode/
+.idea/
+.DS_Store
